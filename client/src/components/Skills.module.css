@@ -1,0 +1,29 @@
+.skills h2 {
+  font-size: 56px;
+  margin-bottom: 26px;
+}
+.skills p {
+  color: var(--chalk-dim);
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+.skillsList{
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.skillsList li{
+  padding: 12px 24px;
+  list-style: none;
+  border: 2px solid;
+  border-radius: 26px;
+  font-size: 22px;
+}
+.blue{
+  color: var(--blue);
+}
+.yellow{
+  color: var(--yellow);
+}

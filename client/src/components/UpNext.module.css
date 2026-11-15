@@ -1,0 +1,95 @@
+.frame{
+    max-width: 520px;
+    background: var(--wood-light);
+    padding: 16px;
+    border-radius: 8px;
+    margin: 44px auto 0;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.4);
+}
+.board{
+    background: var(--board-black);
+    padding: 28px 28px 44px;
+    border-radius: 4px;
+    min-height: 200px;
+    position: relative;
+    box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.7);
+}
+.labelYellow{
+    font-size: 22px;
+    color: var(--yellow);
+}
+.projectName{
+    font-size: 44px;
+}
+.projectDesc{
+    color: var(--chalk-dim);
+    font-size: 20px;
+}
+
+.UpNext h2{
+    font-size: 52px;
+    margin-bottom: 26px;
+}
+
+
+.UpNext > p {
+    font-size: 22px;
+}
+
+.eraser{
+    position: absolute;
+    width: 70px;
+    height: 22px;
+    background-color: #3a3a3a;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    border-top: 8px solid #c8a27a;
+    bottom: -12px;
+    right: 16px;
+}
+
+.checklist{
+ list-style: none;
+ padding: 0;
+ display: flex;
+ flex-direction: column;
+ gap: 8px;
+ font-size: 22px;   
+}
+
+.checklist li::before{
+    content: "";
+    border: 2px solid var(--chalk-dim);
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 12px;
+    vertical-align: -2px;
+}
+
+.checklist .done::before{
+    content: "✓";
+    line-height: 18px;
+    text-align: center;
+}
+
+.learnList{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.techLearn{
+    font-size: 24px;
+    color: var(--blue);
+}
+
+
+.stayTuned{
+    font-size: 28px;
+    color: var(--pink);
+    transform: rotate(-3deg);
+    display: inline-block;
+}

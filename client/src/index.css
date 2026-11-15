@@ -1,0 +1,58 @@
+:root {
+  --wood: #7a4b2a;
+  --wood-dark: #5a3519;
+  --wood-light: #a8763f;
+  --board: #2e4636;
+  --board-black: #1d1f1e;
+  --chalk: #f2efe6;
+  --chalk-dim: #d9d6cc;
+  --yellow: #f4d35e;
+  --blue: #9fd8f0;
+  --pink: #f28fad;
+  --ink: #26303a;
+  --red: #b03a2e;
+}
+
+*{
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  background: var(--wood);
+  color: var(--chalk);
+  font-family: "Patrick Hand", cursive;
+}
+h1,h2,h3{
+  font-family: "Caveat Brush", cursive;
+  font-weight: 400;
+  margin: 0;
+}
+p{
+  margin: 0;
+}
+.container{
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.frame{
+  min-height: 100vh;
+  padding: 20px;
+}
+.board{
+  background: var(--board);
+  border: 6px solid var(--wood-dark);
+  border-radius: 2px;
+  padding: 24px;
+  position: relative;
+}
+
+
+.section{
+  border-top: 2px dashed var(--chalk-dim);
+  padding-top: 40px;
+  padding-bottom: 80px;
+}

@@ -1,0 +1,39 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 18px;
+}
+.contact h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 52px;
+}
+
+.contact p {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    color: var(--chalk-dim);
+}
+
+.emailBtn{
+    font-size: 24px;
+    padding: 14px 32px;
+    border-radius: 8px;
+    background: var(--yellow);
+    color: var(--board-black);
+    text-decoration: none;
+}
+
+.socialLinks{
+    display: flex;
+    gap: 24px;
+    font-size: 22px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.socialLinks a {
+    color: var(--yellow);
+}

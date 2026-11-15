@@ -1,0 +1,8 @@
+.about h2{
+    font-size: 56px;
+    margin-bottom: 26px;
+}
+.about p {
+    color: var(--chalk-dim);
+    font-size: 24px;
+}

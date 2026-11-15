@@ -1,0 +1,121 @@
+.greet {
+    color: var(--yellow);
+    font-size: 24px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 56px;
+    padding-top: 56px;
+    padding-bottom: 88px;
+}
+
+.heroText {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 999 1 520px;
+}
+
+.hero h1 {
+    font-size: clamp(38px, 6vw, 56px);
+    line-height: 1.1;
+}
+
+.role {
+    font-size: 30px;
+    align-self: flex-start;
+    border-bottom: 3px solid var(--yellow);
+}
+
+.discription {
+    color: var(--chalk-dim);
+    font-size: 22px;
+    max-width: 560px;
+}
+
+.homeBtn {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 12px;
+}
+
+.btnProject {
+    color: var(--board-black);
+    background-color: var(--yellow);
+    text-decoration: none;
+    padding: 14px 28px;
+    font-size: 22px;
+    border-radius: 8px;
+}
+
+.btnProject:hover {
+    background: #fff3b0;
+}
+
+.btnContact {
+    color: var(--chalk);
+    background: none;
+    text-decoration: none;
+    padding: 14px 28px;
+    font-size: 22px;
+    border: dotted var(--chalk);
+    border-radius: 8px;
+}
+
+.btnContact:hover {
+    color: #fff3b0;
+}
+
+
+
+.stickyNote{
+    background: #fff3b0;
+    color: var(--board-black);
+    width: 300px;
+    padding: 40px 28px;
+    font-size: 22px;
+    box-shadow: 6px 10px 18px rgba(0, 0, 0, 0.35);
+    transform: rotate(3deg);
+    position: relative;
+}
+
+.heroNote{
+    display: flex;
+    flex: 1 1 300px;
+    justify-content: center;
+}
+
+
+.tape{
+    background: rgba(255, 255, 255, 0.55);
+    position: absolute;
+    width: 110px;
+    height: 28px;
+    top: -14px;
+    transform: rotate(-4deg);
+    left: 30%;
+}
+.stickyHeading{
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+.stamp{
+    border-radius: 50%;
+    border: 4px solid #c0392b;
+    background-color: #fff3b0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    color: #c0392b;
+    font-family: "Caveat Brush", cursive;
+    position: absolute;
+    right: -20px;
+    transform: rotate(-14deg);
+}
